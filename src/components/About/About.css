@@ -1,0 +1,52 @@
+.main-content {
+    margin-top: 2vw;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content .left-para {
+    width: 40vw;
+}
+
+.left-para h1 {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.left-para h1 span {
+    color: grey;
+}
+
+.left-para p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width:640px) {
+    .main-content {
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .main-content .left-para {
+        width: 100%;
+    }
+
+    .left-para h1 {
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 800;
+    }
+
+    .left-para p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}

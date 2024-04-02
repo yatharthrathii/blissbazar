@@ -1,0 +1,10 @@
+.main-content{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    .main-content{
+        max-width: calc(100% - 20px)
+    }
+}

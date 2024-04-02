@@ -1,0 +1,104 @@
+.f-t {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-t .f-t-content {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 7vw;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+}
+
+.f-t-content .col {
+    max-width: 18vw;
+}
+
+.col .title {
+    margin-bottom: 15px;
+    font-size: 1.6vw;
+    color: white;
+}
+
+.col .text {
+    font-size: 1vw;
+    line-height: 1;
+    color: darkgray;
+    margin-top: 6px;
+}
+
+.col .texte:hover {
+    text-decoration: underline;
+    transition: all ease 0.3s;
+}
+
+.col .c-item {
+    display: flex;
+}
+
+.col .th {
+    text-decoration: none;
+}
+
+.c-item .i {
+    margin-top: 5px;
+}
+
+.c-item svg {
+    flex-shrink: 0;
+    font-size: 1vw;
+    margin-right: 10px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.col span {
+    display: block;
+    cursor: pointer;
+}
+
+@media (max-width: 640px) {
+    .f-t {
+        height: 30vh;
+    }
+
+    .f-t .f-t-content {
+        gap: 1vh;
+        margin-top: 3vh;
+        margin-bottom: 6vh;
+    }
+
+    .f-t-content .col {
+        padding: 1vh 1vh;
+        min-width: 19vw;
+    }
+
+    .col .title {
+        margin-bottom: 10px;
+        font-size: 1.6vh;
+    }
+
+    .col .text {
+        font-size: 1vh;
+        margin-top: 4px;
+    }
+
+    .col .c-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col .c-item .i {
+        font-size: 0.8vh;
+    }
+
+    .col .item1 {
+        display: none;
+    }
+}
